@@ -103,7 +103,12 @@ h1 {
     color: #373169;
     font-size: 1.5rem;
     margin: 0;
+    transition: color 0.2s ease 0.2s;
   }
+  > button:hover {
+    color: #aeaacd;
+  }
+  
 }
 input, textarea {
   background-color: #aeaacd;

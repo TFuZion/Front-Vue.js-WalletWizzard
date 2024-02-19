@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router';
     <nav>
       <RouterLink to="/homepage">HomePage</RouterLink>
       <RouterLink to="/historique">Historique</RouterLink>
-      <RouterLink to="/add">Add</RouterLink>
+      <RouterLink to="/add">Transaction</RouterLink>
       <RouterLink to="/ttdepense">Totale</RouterLink>
     </nav>
   </header>
@@ -39,5 +39,9 @@ nav {
 }
 main {
   width: 90%;
+}
+.router-link-active {
+  height: 3px;
+  background-color: #ebe9fc;;
 }
 </style>
